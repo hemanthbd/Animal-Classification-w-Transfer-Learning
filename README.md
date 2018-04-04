@@ -1,3 +1,3 @@
-# Tone-Mapping
+# Demosaicing
 
-This involves implementing tone-mapping on all the RAW .nef Nikon images.
+This involves implementation of different versions of demosaicing from a RAW Nikon camera .nef file.
