@@ -1,0 +1,34 @@
+/*
+ *  ======== tone.tcf ========
+ *
+ *! Revision History
+ *! ================
+ *! 03-Jul-2002 mw Created.
+ *
+ * To create tone.cdb, run Dosrun.bat in your Code Composer install directory
+ * then go to the example directory and type the following at the command line:
+ * tconf -Dconfig.importPath="%TI_DIR%\c5500\dsk5510\include" 
+ *       -Dconfig.tiRoot="%TI_DIR%" tone.tcf
+ * 
+ */
+
+/* Load 5510 DSK platform */
+utils.loadPlatform("Dsk5510");
+
+/* Get program objects */
+utils.getProgObjs(prog);
+
+/* Enable all heaps, RTDX, Real Time Analysis, and the Task Mangager */
+bios.enableFullBios(prog);
+
+/* Set memory model to large mode */
+GBL.MEMORYMODEL = "LARGE";
+
+/* Disable Task Manager */
+TSK.ENABLETSK = 0;
+
+/* Import AIC23 module definitions */
+utils.importFile("dsk5510_aic23.tci");
+
+/* Generate .cdb file */
+prog.gen("tone");

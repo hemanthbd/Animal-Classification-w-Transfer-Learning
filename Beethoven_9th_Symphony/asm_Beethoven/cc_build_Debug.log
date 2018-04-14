@@ -1,0 +1,22 @@
+------------------------------  tone.pjt - Debug  ------------------------------
+"f:\ti\plugins\bios\gconfgen" tone.cdb
+
+"f:\ti\c5500\cgtools\bin\cl55" -g -q -fr"./Debug" -i"." -d"_DEBUG" -ml -mn -v5510:2 -@"Debug.lkf" "asm_adsr.asm"
+
+"f:\ti\c5500\cgtools\bin\cl55" -g -q -fr"./Debug" -i"." -d"_DEBUG" -ml -mn -v5510:2 -@"Debug.lkf" "asm_inter.asm"
+"asm_inter.asm", WARNING! at line 45: [W9999] Using MMR address
+		    MPY T3,T1,AC1 ; AC1-> m*x
+		^                            
+
+No Assembly Errors, 1 Assembly Warning
+
+"f:\ti\c5500\cgtools\bin\cl55" -g -q -fr"./Debug" -i"." -d"_DEBUG" -ml -mn -v5510:2 -@"Debug.lkf" "tone.c"
+
+"f:\ti\c5500\cgtools\bin\cl55" -g -q -fr"./Debug" -i"." -d"_DEBUG" -ml -mn -v5510:2 -@"Debug.lkf" "tonecfg.s55"
+
+"f:\ti\c5500\cgtools\bin\cl55" -g -q -fr"./Debug" -i"." -d"_DEBUG" -ml -mn -v5510:2 -@"Debug.lkf" "tonecfg_c.c"
+
+"f:\ti\c5500\cgtools\bin\cl55" -@"Debug.lkf"
+
+Build Complete,
+  0 Errors, 1 Warnings, 0 Remarks.

@@ -1,0 +1,13 @@
+------------------------------  tone.pjt - Debug  ------------------------------
+"f:\ti\plugins\bios\gconfgen" tone.cdb
+
+"f:\ti\c5500\cgtools\bin\cl55" -g -mg -q -fr"./Debug" -i"." -d"_DEBUG" -ml -mn -v5510:2 -@"Debug.lkf" "tone.c"
+
+"f:\ti\c5500\cgtools\bin\cl55" -g -mg -q -fr"./Debug" -i"." -d"_DEBUG" -ml -mn -v5510:2 -@"Debug.lkf" "tonecfg.s55"
+
+"f:\ti\c5500\cgtools\bin\cl55" -g -mg -q -fr"./Debug" -i"." -d"_DEBUG" -ml -mn -v5510:2 -@"Debug.lkf" "tonecfg_c.c"
+
+"f:\ti\c5500\cgtools\bin\cl55" -@"Debug.lkf"
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.
