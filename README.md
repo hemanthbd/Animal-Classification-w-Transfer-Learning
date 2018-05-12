@@ -1,1 +1,3 @@
-# Beethoven_9th_Symphony# CNN-from-scratch
+# RNN_LSTM
+
+Implemented RNN using LSTM framework
