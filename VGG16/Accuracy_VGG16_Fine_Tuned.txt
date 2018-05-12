@@ -1,0 +1,1 @@
+Accuracy for VGGnet Fine-Tuned = 86%

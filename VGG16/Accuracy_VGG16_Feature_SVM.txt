@@ -1,0 +1,1 @@
+Accuracy for VGGnet Feature Extractor + SVM = 84%
