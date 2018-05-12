@@ -1,7 +1,0 @@
--z -q -c -o"./Debug/tone.out" -x -i"f:/ti/C5500/bios/lib" -i"f:/ti/C5500/dsk5510/lib" -i"f:/ti/c5500/rtdx/lib" -i"f:/ti/c5500/cgtools/lib" -l"dsk5510bslx.lib"
-"F:\Users\sundevil\Desktop\lab02_TI_files_FIN333\asm_Beethoven\Debug\asm_adsr.obj"
-"F:\Users\sundevil\Desktop\lab02_TI_files_FIN333\asm_Beethoven\Debug\asm_inter.obj"
-"F:\Users\sundevil\Desktop\lab02_TI_files_FIN333\asm_Beethoven\Debug\tone.obj"
-"F:\Users\sundevil\Desktop\lab02_TI_files_FIN333\asm_Beethoven\Debug\tonecfg.obj"
-"F:\Users\sundevil\Desktop\lab02_TI_files_FIN333\asm_Beethoven\Debug\tonecfg_c.obj"
-"F:\Users\sundevil\Desktop\lab02_TI_files_FIN333\asm_Beethoven\tonecfg.cmd"
